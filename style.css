@@ -1,0 +1,50 @@
+body{
+  /* background-color: rgb(143, 160, 160); */
+  color: var(--titel-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+   margin-top: 0;
+}
+  
+
+/* Убирает все отступы */
+/* h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+} */
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Убирает подчеркивание в списках */
+ul { list-style: none;}
+
+/* Убирает точки в списках */
+.link { 
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+    background-color: #6ea6b2dc;
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid #0ea106dc;
+}
+
+.test {
+  display: block;
+}
+
+main {
+  outline: 2px solid #551babdc;
+}
+

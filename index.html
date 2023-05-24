@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- шапка страницы и навигация (контактный номер, ссылка на LD и так далее) 
+    В НАШЕМ случае, это не класическая шапка, в этой секции будет фото и конт. информация с образованием ...-->
+    <header class="header">
+      <div class="container test">
+        <!-- в href можно запихнуть ссылку на линкидин (например) и нажимая на фото, тебя будет переносить на твой линкидин -->
+
+        <!-- СЕКЦИЯ ФОТО С ССЫЛКОЙ НА НЕЙ -->
+        <a class="foto" href="tel:+380961111111">
+          <img
+            src="./img/team-igr-mob1x.jpg"
+            alt="фото никита"
+            width="190"
+            height="200"
+          />
+        </a>
+
+        <!--  если нужен заголовок, то просто ставим его перею ul -->
+        <h2 class="section-title">Contacts</h2>
+
+        <!-- всю информацию, которая однотипная мы обязательно запишиваем в ul and li и есть нужно сделать ссылку то добавляем тег a. -->
+        <!-- СЕКЦИЯ КОНТАКТННЫЕ ДАННЫЕ -->
+        <ul class="navigation">
+          <li class="navigation-item">
+            <a href="tel:+380961111111" class="navigation-item-link link"
+              >tel:+380961111111</a
+            >
+          </li>
+          <li class="navigation-item">
+            <a href="https://ua.linkedin.com/" class="navigation-item-link link"
+              >Ссылка на линкедин</a
+            >
+          </li>
+          <li class="navigation-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="navigation-item-link link"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+
+        <!-- на каждую секциию однотипной информации должен быть свой  ul и li вставленный в него (ul это обертка для подпунктов li)-->
+        <!--  СЕКЦИЯ ОБРАЗОВАНИЯ -->
+        <h2 class="section-title">Education</h2>
+        <ul class="navigation">
+          <li class="navigation-item">
+            <h3>Kyiv National University of Trade and Economics</h3>
+            <h4>Bachelor's Degree in Business Economic</h4>
+            <p>September 2011 - June 2015 | Kyiv, Ukraine</p>
+          </li>
+          <li class="navigation-item">
+            <h4>Master's Degree in Business Economic</h4>
+            <p>September 2015 - January 2017 | Kyiv, Ukraine</p>
+          </li>
+          <li class="navigation-item">
+            <h4>Master's Degree in Financial Law</h4>
+            <p>January 2016 – June 2018 | Kyiv, Ukraine</p>
+          </li>
+        </ul>
+        <!-- СEКЦИЯ ХАРД СКИЛОВ -->
+        <h2 class="section-title">Tech skills</h2>
+        <ul class="navigation">
+          <li class="navigation-item">HTML</li>
+          <li class="navigation-item">CSS</li>
+          <li class="navigation-item">C#/.NET</li>
+          <li class="navigation-item">SQL</li>
+        </ul>
+        <!-- СEКЦИЯ СОФТ СКИЛОВ -->
+        <h2 class="section-title">Soft skills</h2>
+        <ul class="navigation">
+          <li class="navigation-item">Agile</li>
+          <li class="navigation-item">Teamwork</li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Nikita Hnitetskyi</h1>
+          <h2 class="section-title">Head of Key Accounts Department</h2>
+          <p class="TextColors">
+            It is impossible to live better than spending your life striving to
+            become more perfect. (c) Sokrat
+          </p>
+        </div>
+      </section>
+
+      <section class="work-experience">
+        <div class="container">
+          <h2 class="section-title">Work Experience</h2>
+            <ul>
+              <li>
+                <h3>Head of Key Accounts Department</h3>
+                <h4>MegaPlant, ltd.</h4>
+                <p class="text">February 2021 – Present | Ukraine, Kyiv</p>
+                  <p>Organization of the work process.</p>
+                  <p>Meetings with decision makers and negotiations.</p>
+                  <p>Financial planning.</p>
+                  <p>Team motivation.</p>
+
+              </li>
+
+              <li>
+                <h3>Key Account Manager</h3>
+                <h4>Bakery Food Industry, ltd.</h4>
+                <p>March 2020 – February 2021 | Ukraine, Kyiv</p>
+                  <p>Client support</p>
+                  <p>Search for new distribution channels.</p>
+                  <p>Financial planning.</p>
+              </li>
+
+              <li>
+                <h3>Manager of Sales</h3>
+                <h4>Ryhalskiy Milk Powder Plant, ltd.</h4>
+                <p>March 2020 – February 2021 | Ukraine, Kyiv</p>
+                  <p>Searching for clients.</p>
+                  <p>Sale to a client.</p>
+                  <p>Client support.</p>
+              </li>
+            </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Копірайт © 2023. Права захищені.</p>
+      </div>
+    </footer>
+  </body>
+</html>
